@@ -170,7 +170,7 @@
   background-image: repeating-linear-gradient(
     90deg,
     transparent 0 78px,
-    var(--emerald-stripe) 78px 80px
+    color-mix(in oklab, var(--brand-blue-foreground) 10%, transparent) 78px 80px
   );
 }
 
