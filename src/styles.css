@@ -26,13 +26,15 @@
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
-  --color-emerald-deep: var(--emerald-deep);
-  --color-emerald-deep-foreground: var(--emerald-deep-foreground);
-  --color-emerald-stripe: var(--emerald-stripe);
-  --color-coral: var(--coral);
-  --color-coral-foreground: var(--coral-foreground);
   --color-brand-blue: var(--brand-blue);
   --color-brand-blue-foreground: var(--brand-blue-foreground);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-navy-foreground: var(--brand-navy-foreground);
+  --color-brand-tint: var(--brand-tint);
+  --color-orange: var(--orange);
+  --color-orange-foreground: var(--orange-foreground);
+  --color-coop: var(--coop);
+  --color-coop-foreground: var(--coop-foreground);
   --color-gold: var(--gold);
 
   --color-background: var(--background);
