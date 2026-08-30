@@ -161,3 +161,17 @@
     color: var(--color-foreground);
   }
 }
+
+@utility hero-stripes {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0 78px,
+    var(--emerald-stripe) 78px 80px
+  );
+}
+
+@utility glass-badge {
+  background: color-mix(in oklab, white 22%, transparent);
+  backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid color-mix(in oklab, white 35%, transparent);
+}
