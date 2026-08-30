@@ -74,17 +74,19 @@
 
 :root {
   --radius: 1rem;
-  --emerald-deep: oklch(0.32 0.075 165);
-  --emerald-deep-foreground: oklch(0.98 0.01 160);
-  --emerald-stripe: oklch(0.38 0.085 165);
-  --coral: oklch(0.63 0.2 27);
-  --coral-foreground: oklch(0.99 0 0);
-  --brand-blue: oklch(0.6 0.21 255);
+  --brand-blue: oklch(0.546 0.215 262.9);
   --brand-blue-foreground: oklch(0.99 0 0);
+  --brand-navy: oklch(0.31 0.11 265);
+  --brand-navy-foreground: oklch(0.98 0.01 250);
+  --brand-tint: oklch(0.955 0.022 255);
+  --orange: oklch(0.705 0.185 48);
+  --orange-foreground: oklch(0.99 0 0);
+  --coop: oklch(0.7 0.145 162);
+  --coop-foreground: oklch(0.99 0 0);
   --gold: oklch(0.8 0.16 85);
-  --shadow-card: 0 12px 40px -18px oklch(0.2 0.05 165 / 0.35);
+  --shadow-card: 0 12px 40px -18px oklch(0.3 0.08 265 / 0.28);
 
-  --background: oklch(1 0 0);
+  --background: oklch(0.984 0.003 247.858);
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
