@@ -39,7 +39,7 @@ export const services: Service[] = [
     price: 699,
     workerShare: 594,
     image:
-      "https://images.unsplash.com/photo-1631545806609-24bb6f4f8d5b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80",
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const services: Service[] = [
 ];
 
 export const heroImage =
-  "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80";
+  "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1200&q=80";
 
 export const dispatchQueue = [
   { name: "Ramesh K.", meta: "1.2 km away · 6 min wait", jobs: "New member · priority slot" },
