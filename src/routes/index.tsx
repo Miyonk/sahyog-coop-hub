@@ -262,12 +262,7 @@ function Index() {
                 <div className="flex flex-1 flex-col p-5">
                   <h3 className="text-lg font-bold">{s.name}</h3>
                   <p className="mt-1 text-sm text-muted-foreground">{s.description}</p>
-                  <p className="mt-4 text-base font-semibold">
-                    {rupee(s.price)}{" "}
-                    <span className="text-sm font-medium text-coop">
-                      ({rupee(s.workerShare)} to worker)
-                    </span>
-                  </p>
+                  <p className="mt-4 text-base font-semibold">{rupee(s.price)}</p>
                   <Button
                     variant="outline"
                     className="mt-4 h-11 rounded-xl border-brand-blue text-sm font-semibold text-brand-blue hover:bg-brand-blue/10"
